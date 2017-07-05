@@ -41,9 +41,15 @@
             <div id="deviceready" class="blink">
                 <h1 class="event listening">this is  my app</h1>
                 <p class="event received">who are you  ? no one</p>
-                <button>click here</button>
+                <button id="click">click mmp</button>
             </div>
         </div>
+        <script type="text/javascript">
+            var btn = document.getElementById("#click");
+            btn.on(click,function(){
+                btn.innerHTML='mmp';
+            })
+        </script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
